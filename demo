@@ -1,0 +1,12 @@
+takeoff‑demo/
+├─ backend/                # FastAPI + ML
+│  ├─ app/                 # your FastAPI code
+│  ├─ models/light_yolov8.pt
+│  ├─ requirements.txt
+│  └─ Dockerfile
+├─ frontend/               # React Vite UI
+│  ├─ src/…
+│  ├─ index.html
+│  └─ package.json
+├─ render.yaml             # Render infra file
+└─ vercel.json             # Vercel config for the UI
